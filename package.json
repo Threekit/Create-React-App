@@ -24,15 +24,19 @@
   },
   "keywords": [
     "3D Configuration",
+    "3D ecommerce",
     "3D",
     "AR",
     "Augmented Reality",
     "gltf",
     "Product Configuration",
     "Product Customization",
+    "Threehub",
     "ThreeJS",
+    "Threekit",
     "usdz",
-    "Vue"
+    "Vue",
+    "WebGl"
   ],
   "name": "cra",
   "private": true,
