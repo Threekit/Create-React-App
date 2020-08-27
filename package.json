@@ -38,6 +38,7 @@
     "Vue",
     "WebGl"
   ],
+  "license": "MIT",
   "name": "cra",
   "private": true,
   "scripts": {
