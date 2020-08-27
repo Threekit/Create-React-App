@@ -22,22 +22,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "keywords": [
-    "3D Configuration",
-    "3D ecommerce",
-    "3D",
-    "AR",
-    "Augmented Reality",
-    "gltf",
-    "Product Configuration",
-    "Product Customization",
-    "Threehub",
-    "ThreeJS",
-    "Threekit",
-    "usdz",
-    "Vue",
-    "WebGl"
-  ],
+  "keywords": [],
   "license": "MIT",
   "name": "cra",
   "private": true,
