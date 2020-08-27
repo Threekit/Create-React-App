@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+/* player-el must have a discretely defined height (e.g. px, vh, etc.) */
 .player-el {
-  height: 500px;
+  height: 100vh;
 }
