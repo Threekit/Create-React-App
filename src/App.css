@@ -3,16 +3,45 @@
 }
 
 .App {
+  --side-padding: 10%;
+  --logo-padding: 10px;
+  --logo-width: 200px;
+}
+
+@media (max-width: 600px) {
+  .App {
+    --side-padding: 5%;
+    --logo-padding: 10px;
+    --logo-width: 100px;
+  }
+}
+
+.App a {
+  text-decoration: none;
 }
 
 .App-header {
+  align-items: center;
   background: #f5f5f5;
-  padding: 10px 10%;
-  width: 100%;
+  display: flex;
+  padding: 0 var(--side-padding);
+}
+
+.App-header div:first-child {
+  flex: auto;
+}
+
+.App-header a:nth-child(n + 2) {
+  margin-left: 10px;
+}
+
+.App-logo {
+  margin: var(--logo-padding) 0;
+  width: var(--logo-width);
 }
 
 .App-main {
-  padding: 10px 10%;
+  padding: 10px var(--side-padding);
 }
 
 .player-el {

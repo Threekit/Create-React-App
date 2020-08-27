@@ -12,14 +12,39 @@ function App() {
 
   return (
     <div className="App">
-      <div className="App-header">
-        <a href="https://www.threekit.com/">
-          <img alt="logo" src="https://i.imgur.com/zsXaU2U.png" width="200px" />
-        </a>
-      </div>
+      <Header />
+
       <div className="App-main">
         <div className="player-el" ref={playerRef} />
       </div>
+    </div>
+  );
+}
+
+function Header() {
+  return (
+    <div className="App-header">
+      <div>
+        <img
+          alt="logo"
+          className="App-logo"
+          src="https://i.imgur.com/zsXaU2U.png"
+        />
+      </div>
+      <a
+        href="https://github.com/Threekit/Create-React-App"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img alt="docs" width="25px" src="https://i.imgur.com/v6VIy1K.png" />
+      </a>
+      <a
+        href="https://docs.threekit.com/docs/en/player-api"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img alt="docs" width="25px" src="https://i.imgur.com/jjoaLNA.png" />
+      </a>
     </div>
   );
 }
