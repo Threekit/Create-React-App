@@ -25,25 +25,31 @@ function Header() {
   return (
     <div className="App-header">
       <div>
-        <img
-          alt="logo"
-          className="App-logo"
-          src="https://i.imgur.com/zsXaU2U.png"
-        />
+        <a
+          href="https://www.threekit.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="logo"
+            className="App-logo"
+            src="https://i.imgur.com/zsXaU2U.png"
+          />
+        </a>
       </div>
       <a
         href="https://github.com/Threekit/Create-React-App"
         rel="noopener noreferrer"
         target="_blank"
       >
-        <img alt="docs" width="25px" src="https://i.imgur.com/v6VIy1K.png" />
+        <img alt="docs" src="https://i.imgur.com/v6VIy1K.png" width="25px" />
       </a>
       <a
         href="https://docs.threekit.com/docs/en/player-api"
         rel="noopener noreferrer"
         target="_blank"
       >
-        <img alt="docs" width="25px" src="https://i.imgur.com/jjoaLNA.png" />
+        <img alt="docs" src="https://i.imgur.com/jjoaLNA.png" width="25px" />
       </a>
     </div>
   );
