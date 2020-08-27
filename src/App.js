@@ -1,24 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { usePlayer } from "./Threekit";
+
+const assetId = "f2b754ae-2d55-4cb2-91f9-c83b966970c8";
+const authToken = process.env.REACT_APP_THREEKIT_AUTH_TOKEN;
 
 function App() {
+  const playerRef = usePlayer({ assetId, authToken });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="player-el" ref={playerRef} />
     </div>
   );
 }
