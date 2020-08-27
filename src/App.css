@@ -4,5 +4,5 @@
 
 /* player-el must have a discretely defined height (e.g. px, vh, etc.) */
 .player-el {
-  height: 100vh;
+  height: 500px;
 }
