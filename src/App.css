@@ -1,8 +1,20 @@
-.App {
-  text-align: center;
+:not(:root):fullscreen::backdrop {
+  background: white; /* Ensures the Player's Fullscreen mode has a white background */
 }
 
-/* player-el must have a discretely defined height (e.g. px, vh, etc.) */
+.App {
+}
+
+.App-header {
+  background: #f5f5f5;
+  padding: 10px 10%;
+  width: 100%;
+}
+
+.App-main {
+  padding: 10px 10%;
+}
+
 .player-el {
-  height: 500px;
+  height: 500px; /* player-el must have a discretely defined height (e.g. px, vh, etc.) */
 }
