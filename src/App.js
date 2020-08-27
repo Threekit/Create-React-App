@@ -2,11 +2,12 @@ import React from "react";
 import "./App.css";
 import { usePlayer } from "./Threekit";
 
-const assetId = "7479a7f6-bae4-4d3a-94c7-5df6f6e04dae";
-const authToken = process.env.REACT_APP_THREEKIT_AUTH_TOKEN;
-
 function App() {
-  const playerRef = usePlayer({ assetId, authToken });
+  const playerRef = usePlayer({
+    assetId: "7479a7f6-bae4-4d3a-94c7-5df6f6e04dae",
+    authToken: process.env.REACT_APP_THREEKIT_AUTH_TOKEN,
+    showAR: true,
+  });
 
   return (
     <div className="App">
