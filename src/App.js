@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { usePlayer } from "./Threekit";
 
-const assetId = "f2b754ae-2d55-4cb2-91f9-c83b966970c8";
+const assetId = "7479a7f6-bae4-4d3a-94c7-5df6f6e04dae";
 const authToken = process.env.REACT_APP_THREEKIT_AUTH_TOKEN;
 
 function App() {
