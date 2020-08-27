@@ -2,6 +2,10 @@
   background: white; /* Ensures the Player's Fullscreen mode has a white background */
 }
 
+.player-el {
+  height: 500px; /* player-el must have a discretely defined height (e.g. px, vh, etc.) */
+}
+
 .App {
   --side-padding: 10%;
   --logo-padding: 10px;
@@ -48,8 +52,4 @@
 
 .App-main {
   padding: 10px var(--side-padding);
-}
-
-.player-el {
-  height: 500px; /* player-el must have a discretely defined height (e.g. px, vh, etc.) */
 }

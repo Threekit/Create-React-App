@@ -9,7 +9,7 @@ git clone https://github.com/Threekit/Create-React-App.git my-app
 cd my-app
 npm install
 mv _.env.local .env.local
-npm start
+npm run start
 ```
 
 with yarn
