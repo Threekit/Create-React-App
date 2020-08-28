@@ -12,7 +12,7 @@ mv _.env.local .env.local
 npm run start
 ```
 
-with yarn
+_with yarn_
 
 ```
 git clone https://github.com/Threekit/Create-React-App.git my-app
